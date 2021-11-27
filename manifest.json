@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "huh?",
+    "description": "Do you hate my website? Just block it!",
+    "content_scripts": [
+        {
+            "matches":["*://*.sheitann.tech/*"],
+            "js": ["main.js"]
+        }
+    ]
+}
